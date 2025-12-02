@@ -37,6 +37,10 @@ header{
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+
 }
 nav#menu ul {
   list-style: none;
@@ -269,12 +273,12 @@ footer a:hover {
   }
 
   #projeto-container .projeto-info{
-    max-width: 70%;
+    max-width: 60%;
   }
 
   #projeto-container.foto {
     aspect-ratio: 1/1;
     max-width: 20px;
-    max-height: 200px;
+    max-height: 50px;
 }
 }
